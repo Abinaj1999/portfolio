@@ -1,0 +1,233 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    border:1px solid black;
+    background:white;
+    position:relative;
+    text-align: center;
+
+}
+
+
+.first-st-div{
+    margin:4px 0px 0px 0px;
+
+}
+.second-st-div ul{
+    display: flex;
+        background-color:white;
+        text-align:center;
+        align-items: center;
+        list-style-type:none;
+        margin: 20px 0px 0px 0px;
+}
+
+.second-st-div ul li a{
+    text-decoration: none;
+    align-items: center;
+    color:black;
+    padding:30px 20px 28px 20px;
+    border:0px solid black;
+    font-size: larger;
+    height:900px;
+    
+}
+
+.second-st-div ul li a:hover{
+    background-color:rgb(43, 175, 34);
+
+}
+.second-st-div ul li:hover{
+    background-color:rgb(40, 42, 40)}
+.third-div{
+    align-items: center;
+    margin: 20px;
+    border:none;
+    border-radius: 50%;
+    outline: none;
+}
+
+.third-div button{
+    flex-direction: right;
+    margin: 0px 0px 0px -30px;
+    padding:-9px 10px 10x 10px;
+    height: 0px;
+    align-items: center;
+   color: black;
+   background: #fff;
+    line-height: 0px;
+    border-radius: 0px;
+    cursor: pointer;
+    border: none;
+
+}
+.third-st-div input{
+    border:1px solid black;
+    outline: none;
+    border-radius:100px;
+    background: #fff;
+    height: 50%;
+    padding: 0 20px;
+    font-size: 12px;
+    width: 150px;
+    
+
+}
+.third-st-div span{
+    color: black;
+    position:relative;
+    padding: 0px;
+    cursor:pointer;
+    z-index:1;
+    
+}
+.fourth-div {
+    margin-top: 5px;
+    padding: 15px 20px 1px 0px;
+
+
+}
+.fourth-div a{
+    padding: 12px 1px 1px 1px;
+    
+}
+
+.fourth-div a:hover{background-color:rgba(144, 157, 143,0.3);}
+
+.fiveth-div{ margin-top: 5px;}
+.fiveth-div a{
+    margin:27px 0px 0px 0px;
+    border-radius: 100%;
+    
+}
+
+.fiveth-div ul{
+        display: flex;
+        background-color:white;
+        text-align:center;
+        align-items: center;
+        list-style-type:none;
+        margin: 20px -10px 0px -10px;
+        padding-left: 20px;
+        
+} 
+
+
+.fiveth-div ul li a{
+    text-decoration: none;
+    color:black;
+    padding: 15px 15px;
+    font-size:large;
+    border:0px solid black;
+    height:100px;
+    border-radius:50px;
+    
+}
+.fiveth-div ul li a:hover{
+    background-color:rgba(144, 157, 143,0.3);}
+
+
+
+    
+
+.sixth-div{
+    display: flex;
+    flex-direction: left;
+    
+    margin:20px;
+    top:0;
+    right: 0;
+}
+.Sign-up{
+    border: 0px solid black;
+    width: 150px;
+    height: 20px;
+    border-radius: 30px;
+    margin:-15px -18px -75px 10px;
+    padding: -19px -70px -90px -z0px;
+    z-index: 2;
+    position: relative;
+    
+}
+
+.Sign-up button{
+    background: rgb(14, 176, 14);
+border: 0px solid black;
+outline: none;
+text-decoration: none;
+margin: 0px 0px 0px 60px;
+padding: 0px 4px 0px 0px ;
+height: 50px;
+width: 106PX;
+border-radius:30px 30px 30px 30px;
+color: rgb(249, 249, 249);
+z-index: 1;
+font-size: medium;
+font-weight: 900;
+
+
+
+}
+.Sign-up button:hover{
+    background-color:rgb(25, 230, 7);
+color: black;}
+
+.login{
+width: 100px;
+height: 50px;
+border-radius: 30px;
+padding:0px 10px;
+margin: -15px 0px -16px 0px;
+z-index: 1;}
+
+
+.login button{
+    border: 0px solid black;
+    text-decoration: none;
+    font-size: large;
+    padding: 10px 0px 70x 0px;
+    border-radius:30px 30px 30px 30px;
+    color: black;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    height: 50px;
+    width: 120PX;
+    font-weight: 900;
+    
+    }
+
+
+
+.seventh-div ul{
+    display: flex;
+        background-color:rgb(8, 8, 8);
+        text-align:center;
+        align-items: center;
+        list-style-type:none;
+        margin: 0px 0px 0px 0px;
+        padding:5px 10px 10px 5px;
+
+}
+.seventh-div ul li a{
+    text-decoration: none;
+    align-items: center;
+    color:rgb(255, 254, 254);
+    padding:90px 10px 10px 15px;
+    border:0px solid black;
+    height:100px;
+    width:250px;
+    
+}
+
+.seventh-div  ul li a:hover{
+    background-color:rgb(39, 41, 39);
+
+}
+
+

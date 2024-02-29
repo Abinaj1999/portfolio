@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    list-style-type: none;
+}
+
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header{
+    height: 80px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.logocontainer{
+    width: 100%;
+    margin: 0px 0px 0px 50px;
+
+
+}
+
+.logocontainer img{
+    width: 50%;
+    
+}
+
+.nav { 
+    margin:0px 0px 0px 20px ;
+    
+
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    padding:1px;
+    font-size: 0.8rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+
+}
+.nav li{ 
+    padding:20px 30px 20px 30px;
+    width:max-content;
+    text-align: left;
+    line-height: 5px;
+    font-size: medium;
+    
+
+}
+.nav li:hover{
+    background-color:rgb(223, 241, 250)}
+
+.signbtn{
+    display:flex;
+    align-items:center;
+    background-color: #0ed7ff;
+    height:30px;
+    width: 108px;
+    border-radius: 80px;
+    margin: 0px 0px 0px 40px;
+    padding: 4px;
+}
+
+.signbtn h4{
+    margin: 2px;
+    color: white;
+    font-weight: 4px;
+    
+
+
+}
+
+.signIcon{
+    width:fit-content;
+
+}
+
+.signIcon img{
+    width: 100%;
+    
+}
+.signbtn:hover {
+    background-color:rgb(15, 2, 102)}
+
+.pay{ 
+    text-align: center;
+    padding: 0px 100px;
+
+    background-color: #e4e6e6;}
+
+content{
+    display: flex;
+    justify-content:space-around;
+     margin:150px 0px 40px 200px;}
+
+.image{
+    width: 10%;
+
+}
+
+.photo{
+    width:70% ;
+    margin: 0px 300px -100px 0px;
+}
+
+.sub-content{
+    width: 10px;
+    align-items: center;
+    border:9px 30px 10px 50px;
+}
+
+.app button{
+    display: flex;
+    border: 1px solid black;
+    padding: 05px 30px;
+    font-size: 12px;
+    width:200px;
+    height: 30px;
+    color:white;
+    background: black;
+    border-radius: 600px;
+    outline: none;
+    margin: 20px 0px;
+}
+
+.app i{
+    
+    padding:2px 2px;
+}
+
+
+.app button:hover {
+    background-color:rgb(247, 247, 249);
+    color:black;
+
+}
+    
+    
+
+
+
+
